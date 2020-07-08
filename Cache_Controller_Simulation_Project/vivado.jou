@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 17 16:57:52 2019
+# Process ID: 28144
+# Current directory: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_Simulation_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15372 C:\Users\RAGHAV\Desktop\Cache Controller\Cache_Controller_Simulation_Project\Cache_Controller_Simulation_Project.xpr
+# Log file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_Simulation_Project/vivado.log
+# Journal file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_Simulation_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_Simulation_Project/Cache_Controller_Simulation_Project.xpr}
+open_project {C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_Simulation_Project/Cache_Controller_Simulation_Project.xpr}
+update_compile_order -fileset sources_1
+open_project {C:/Users/RAGHAV/Desktop/DS Project/POSTER/POSTER.xpr}
+launch_simulation
+source TB_READ.tcl
+update_compile_order -fileset sources_1
+save_project_as random_waveforms {C:/Users/RAGHAV/Desktop/DS Project/random_waveforms} -exclude_run_results -force
+relaunch_sim
+close_sim
+close_project

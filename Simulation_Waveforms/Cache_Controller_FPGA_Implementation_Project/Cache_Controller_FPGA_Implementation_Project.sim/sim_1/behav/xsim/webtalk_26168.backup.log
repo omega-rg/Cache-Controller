@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov 16 05:48:36 2019
+# Process ID: 26168
+# Current directory: C:/Users/RAGHAV/Desktop/DS Project/video/video.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/RAGHAV/Desktop/DS Project/video/video.sim/sim_1/behav/xsim/xsim.dir/TB_READ_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/RAGHAV/Desktop/DS Project/video/video.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/RAGHAV/Desktop/DS Project/video/video.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/RAGHAV/Desktop/DS -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/RAGHAV/Desktop/DS" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 16 05:48:36 2019...

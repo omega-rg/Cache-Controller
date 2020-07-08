@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cache_controller_final_stimulation.srcs/sources_1/new/CACHE_CONTROLLER.v" \
+"../../../../cache_controller_final_stimulation.srcs/sources_1/new/L1_CACHE_MEMORY.v" \
+"../../../../cache_controller_final_stimulation.srcs/sources_1/new/L2_CACHE_MEMORY.v" \
+"../../../../cache_controller_final_stimulation.srcs/sources_1/new/MAIN_MEMORY.v" \
+"../../../../cache_controller_final_stimulation.srcs/sim_1/new/TB_2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

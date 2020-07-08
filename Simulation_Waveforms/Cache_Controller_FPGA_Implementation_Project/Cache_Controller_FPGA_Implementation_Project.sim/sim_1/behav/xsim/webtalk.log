@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 17 16:21:03 2019
+# Process ID: 14204
+# Current directory: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.sim/sim_1/behav/xsim/xsim.dir/TB_READ_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/RAGHAV/Desktop/Cache -notrace
+couldn't read file "C:/Users/RAGHAV/Desktop/Cache": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 17 16:21:03 2019...

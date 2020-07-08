@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 17 17:16:22 2019
+# Process ID: 16112
+# Current directory: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.runs/impl_1
+# Command line: vivado.exe -log CACHE_CONTROLLER.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CACHE_CONTROLLER.tcl -notrace
+# Log file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.runs/impl_1/CACHE_CONTROLLER.vdi
+# Journal file: C:/Users/RAGHAV/Desktop/Cache Controller/Cache_Controller_FPGA_Implementation_Project/Cache_Controller_FPGA_Implementation_Project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source CACHE_CONTROLLER.tcl -notrace

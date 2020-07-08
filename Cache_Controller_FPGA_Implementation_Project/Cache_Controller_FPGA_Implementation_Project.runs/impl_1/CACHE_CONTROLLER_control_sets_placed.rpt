@@ -1,0 +1,115 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Nov 17 17:17:20 2019
+| Host         : LAPTOP-V3L8ACTM running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CACHE_CONTROLLER_control_sets_placed.rpt
+| Design       : CACHE_CONTROLLER
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    37 |
+|    Minimum number of control sets                        |    37 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    37 |
+| >= 0 to < 4        |    28 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           29 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              36 |           12 |
+| Yes          | No                    | No                     |            1697 |         1438 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               6 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-----------------------------------+---------------------------+------------------+----------------+
+|   Clock Signal  |           Enable Signal           |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------+-----------------------------------+---------------------------+------------------+----------------+
+|  clk2_OBUF_BUFG |                                   | hit2_i_1_n_0              |                1 |              1 |
+|  clk_IBUF_BUFG  | seven_seg_out[4]_i_1_n_0          |                           |                1 |              1 |
+|  clk2_OBUF_BUFG | p_2_in__0[8]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[6]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[2]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[19]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | l2_tag_array_reg_0_15_0_0_i_2_n_0 |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[16]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[13]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[10]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[15]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[4]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in[1]                         |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[11]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[1]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[18]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in[3]                         |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[5]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in[0]                         |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[3]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[9]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[17]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[7]                      |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[12]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in__0[14]                     |                           |                1 |              2 |
+|  clk2_OBUF_BUFG | p_2_in[2]                         |                           |                1 |              2 |
+|  clk_IBUF_BUFG  |                                   | Anode_Activate[1]_i_1_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG  |                                   | p_0_in[1]                 |                2 |              2 |
+|  clk_IBUF_BUFG  | seven_seg_out[4]_i_1_n_0          | seven_seg_out[6]_i_1_n_0  |                1 |              6 |
+|  clk2_OBUF_BUFG | output_data[3]_i_1_n_0            |                           |                3 |              8 |
+|  clk2_OBUF_BUFG | l1_cache_memory                   |                           |                4 |             16 |
+|  clk_IBUF_BUFG  |                                   |                           |                6 |             22 |
+|  clk_IBUF_BUFG  |                                   | counter[31]_i_1_n_0       |                8 |             31 |
+|  clk2_OBUF_BUFG |                                   |                           |               23 |             37 |
+|  clk2_OBUF_BUFG | l1_valid[7][0]_i_1_n_0            |                           |               65 |            152 |
+|  clk2_OBUF_BUFG | main_memory[30][15]_i_1_n_0       |                           |              402 |            512 |
+|  clk2_OBUF_BUFG | l2_cache_memory[0][63]_i_1_n_0    |                           |              967 |           1024 |
++-----------------+-----------------------------------+---------------------------+------------------+----------------+
+
+

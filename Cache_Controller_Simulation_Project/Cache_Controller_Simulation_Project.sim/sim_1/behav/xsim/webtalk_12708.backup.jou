@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov 11 00:58:26 2019
+# Process ID: 12708
+# Current directory: C:/Users/Sachin/Documents/cache_controller_final_stimulation/cache_controller_final_stimulation.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Sachin/Documents/cache_controller_final_stimulation/cache_controller_final_stimulation.sim/sim_1/behav/xsim/xsim.dir/TB_READ_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Sachin/Documents/cache_controller_final_stimulation/cache_controller_final_stimulation.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Sachin/Documents/cache_controller_final_stimulation/cache_controller_final_stimulation.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Sachin/Documents/cache_controller_final_stimulation/cache_controller_final_stimulation.sim/sim_1/behav/xsim/xsim.dir/TB_READ_behav/webtalk/xsim_webtalk.tcl -notrace
