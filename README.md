@@ -1,5 +1,5 @@
 # Cache Controller
-> Cache Controller is a hardware which acts as an intermediate between the processor and the cache memory. It executes the read and write requests from the processor and copies or replaces data within
+Cache Controller is a hardware which acts as an intermediate between the processor and the cache memory. It executes the read and write requests from the processor and copies or replaces data within
 different levels of cache memory and main memory to reduce the average time taken by the processor
 to retrieve data from an address.
 
@@ -39,9 +39,9 @@ Two project folders are present in the repository.
 1. `Cache_Controller_Simulation_Project`
 2. `Cache_Controller_FPGA_Implementation_Project`
 
-> The essential code present in both the projects is the same except the parameter values, clock speeds amd few other considerations. 
+The essential code present in both the projects is the same except the parameter values, clock speeds amd few other considerations. 
 
-> Therefore **Project 1**(`Cache_Controller_Simulation_Project`) has been commented comprehensively and **Project 2**(`Cache_Controller_FPGA_Implementation_Project`) has been commented only on 
+Therefore **Project 1** `Cache_Controller_Simulation_Project` has been commented comprehensively and **Project 2** `Cache_Controller_FPGA_Implementation_Project` has been commented only on 
 the places where the parameters differ from Project 1. 
 
 ## Usage Details
@@ -123,5 +123,3 @@ It has been initialized in the module as well.
 
 ## **Testbench Details**
 Please refer to the testbench file "TB_READ" present in "Cache_Controller_Simulation_Project". The test-cases and expected outcomes have been well explained in this file.  
-
-
