@@ -61,11 +61,10 @@ The 2 projects have been customized separately for a better experience. Please u
 ## Running the project
 To run a project follow these steps:
 
-```
 1. Open the project folder in [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) software
 2. Open the `.xpr` file in the project folder
 3. Run the project
-```
+
 # Example Results
 
 ## Simulation
