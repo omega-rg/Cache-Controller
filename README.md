@@ -7,7 +7,7 @@ to retrieve data from an address.
 Here in this project, we have implemented a Cache Controller for two layers of Cache Memory - L1 Cache and L2 Cache. The block diagram of the implemented Cache Controller is presented below.
 
 <p align="center">
-  <img src="Cache_controller_block_diagram.PNG" alt="Size Limit CLI" width="738">
+  <img src="Cache_controller_block_diagram.PNG" alt="Size Limit CLI" width="800">
 </p>
 
 ## Project Video
